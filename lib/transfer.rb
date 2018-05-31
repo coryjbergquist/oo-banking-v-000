@@ -9,6 +9,7 @@ class Transfer
 
   def amount= (amount)
     @amount = amount
+  end
 
 
 end
