@@ -34,7 +34,6 @@ class Transfer
     if status == "complete"
     @sender.balance = @last_sender
     @receiver.balance = @last_receiver
-    binding.pry
       @status = "reversed"
   end
 
