@@ -16,4 +16,8 @@ class BankAccount
     @balance
   end
 
+  def display_balance
+    @balance
+  end
+
 end
