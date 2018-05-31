@@ -13,7 +13,6 @@ class Transfer
   end
 
   def valid?
-    @status = "rejected" if @sender.valid? && @receiver.valid? == false
     @sender.valid? && @receiver.valid?
   end
 
