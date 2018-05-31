@@ -27,6 +27,7 @@ class Transfer
     @status = "complete"
   else @status == "complete"
   end
+  "butts"
 end
 
 
