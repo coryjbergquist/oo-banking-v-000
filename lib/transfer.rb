@@ -23,3 +23,4 @@ class Transfer
     @status = "complete"
   end
 end
+end
