@@ -5,8 +5,10 @@ class Transfer
     @sender = sender
     @receiver = receiver
     @status = "pending"
-    @amount = []
   end
+
+  def amount= (amount)
+    @amount = amount
 
 
 end
