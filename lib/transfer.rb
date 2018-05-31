@@ -14,7 +14,7 @@ class Transfer
 
   def valid?
     @sender.valid? && @receiver.valid?
-    @status = "ban"
+    @status = "rejected"
   end
 
   def execute_transaction
