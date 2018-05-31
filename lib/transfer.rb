@@ -17,12 +17,13 @@ class Transfer
   end
 
   def execute_transaction
+    @last_sender = @sender.balance
+    @last_receiver = @receiver.balance
     if @status == "pending"
     @sender.balance -= @amount
     @receiver.balance += @amount
     @status = "complete"
-    @last_sender = @sender.balance
-    @last_receiver = @receiver.balance
+  
     binding.pry
   end
   if valid? == false
