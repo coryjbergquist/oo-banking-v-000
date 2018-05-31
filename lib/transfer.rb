@@ -33,6 +33,7 @@ class Transfer
   def reverse_transfer
     @sender.balance = @last_sender
     @receiver.balance = @last_receiver
+    binding.pry
       @status = "reversed"
   end
 
