@@ -1,7 +1,9 @@
 class Transfer
 
-  initialize(name)
-    @name = name
+  initialize(sender, reciever, status)
+    @sender = sender
+    @reciever = reciever
+    @status = "pending"
   end
   
 
