@@ -7,8 +7,8 @@ class Transfer
     @status = "pending"
   end
 
-  def amount(amount)
-    @amount = amount
+  def amount
+    @amount
   end
 
 
