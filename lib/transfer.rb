@@ -13,8 +13,8 @@ class Transfer
   end
 
   def valid?
-    @sender.valid? && @receiver.valid?
     @status = "rejected" if @sender.valid? && @receiver.valid? == false
+    @sender.valid? && @receiver.valid?
   end
 
   def execute_transaction
