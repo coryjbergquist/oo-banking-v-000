@@ -23,6 +23,7 @@ class Transfer
     @status = "complete"
     @last_sender = @sender.balance
     @last_receiver = @receiver.balance
+    binding.pry
   end
   if valid? == false
     @status = "rejected"
