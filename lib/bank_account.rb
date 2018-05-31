@@ -23,10 +23,11 @@ class BankAccount
   def valid?
     if @balance > 0
       @status = "open"
-    else 
+    else
       @status = "closed"
     end
     @status == "open"
+    binding.pry
   end
 
 end
