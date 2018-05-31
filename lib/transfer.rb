@@ -12,8 +12,8 @@ class Transfer
     @amount
   end
 
-  def valid?
-    
+  def valid?(account)
+    account
   end
 
 end
