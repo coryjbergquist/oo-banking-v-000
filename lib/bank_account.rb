@@ -20,4 +20,7 @@ class BankAccount
     "Your balance is $#{@balance}."
   end
 
+  def valid?
+    @balance > 0
+
 end
