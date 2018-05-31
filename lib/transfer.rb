@@ -1,3 +1,8 @@
 class Transfer
-  # your code here
+
+  initialize(name)
+    @name = name
+  end
+  
+
 end
