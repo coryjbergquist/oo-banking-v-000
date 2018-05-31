@@ -25,7 +25,7 @@ class BankAccount
       @status = "open"
     else @status = "closed"
     end
-    @status
+    @status == "open"
   end
 
 end
