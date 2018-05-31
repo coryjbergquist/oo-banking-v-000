@@ -12,5 +12,8 @@ class Transfer
     @amount
   end
 
+  def valid?
+    
+  end
 
 end
