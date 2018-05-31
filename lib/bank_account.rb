@@ -22,5 +22,6 @@ class BankAccount
 
   def valid?
     @balance > 0
+  end
 
 end
