@@ -22,7 +22,7 @@ class BankAccount
 
   def valid?
      @balance > 0
-
+binding.pry
   end
 
 end
